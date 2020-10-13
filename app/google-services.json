@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "199530954875",
+    "firebase_url": "https://magmaa-1fd80.firebaseio.com",
+    "project_id": "magmaa-1fd80",
+    "storage_bucket": "magmaa-1fd80.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:199530954875:android:aba442ead15ecfed23e2de",
+        "android_client_info": {
+          "package_name": "com.example.magmaa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "199530954875-7uf0hjt4c8do4d7sfrfihvpejo7qslt1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.magmaa",
+            "certificate_hash": "49ff2538d7ff4c66639051e901d1c8798396bef8"
+          }
+        },
+        {
+          "client_id": "199530954875-a3luptdaum4esk9t9te3o44ddgjj0gfi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC511OQMARQWTPvwvpKUK6kjXqxbGFuOWE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "199530954875-a3luptdaum4esk9t9te3o44ddgjj0gfi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

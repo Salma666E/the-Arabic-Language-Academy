@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">مجمع اللغة العربية </string>
+
+    <string name="aboutas">نبذة مختصرة عن المجمع </string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="fname"> اسم المستخدم </string>
+    <string name="lname">اسم العائلة</string>
+    <string name="email">البريد الالكترونى</string>
+    <string name="password">كلمة المرور</string>
+    <string name="share">مشاركة التطبيق</string>
+    <string name="rate">تقييم التطبيق</string>
+    <string name="logout">تسجيل الخروج</string>
+    <string name="editprofile">تعديل الصورة الشخصية</string>
+    <string name="uploadimage">تحميل صوره من الهاتف</string>
+    <string name="save">حفظ</string>
+    <string name="phon">رقم الهاتف</string>
+    <string name="send">إرسال</string>
+    <string name="sendforyou">قم بإرسال بريدك الالكترونى للحصول على كلمة المرور الخاصه بك </string>
+    <string name="forgitpass"> نسيت كلمه المرور ؟</string>
+    <string name="login">تسجيل الدخول</string>
+    <string name="home">الـرئيسية</string>
+    <string name="comment">أكتب تعليقك هنا</string>
+    <string name="surelogout">هل انت تريد اغلاق التطبيق حقآ ؟</string>
+    <string name="yes">نعم</string>
+    <string name="no">لا</string>
+    <string name="commission">لجان المجمع</string>
+    <string name="meeting"> محاضر المجمع</string>
+    <string name="transfer">تنقلات الاعضاء فاللجان</string>
+    <string name="word_science">المصطلحات العلمية</string>
+
+
+</resources>

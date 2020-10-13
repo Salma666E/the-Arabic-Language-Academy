@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:fillViewport="true"
+        android:gravity="center"
+        android:layoutDirection="rtl"
+        tools:context=".Fragments.MangMogamaFragment"
+        >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="المحضر العام"
+        android:textColor="@color/colorWord"
+        android:fontFamily="@font/font"
+        android:textSize="28dp"
+        android:id="@+id/general_meeting"
+        />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/commission"
+            android:textColor="@color/colorWord"
+            android:fontFamily="@font/font"
+            android:textSize="28dp"
+            android:id="@+id/commission"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="@string/meeting"
+            android:textColor="@color/colorWord"
+            android:fontFamily="@font/font"
+            android:textSize="28dp"
+            android:id="@+id/meeting"
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="كتاب عن المجمع "
+            android:textColor="@color/colorWord"
+            android:fontFamily="@font/font"
+            android:textSize="28dp"
+            android:id="@+id/read"
+            />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="مجلات عن المجمع "
+        android:textColor="@color/colorWord"
+        android:fontFamily="@font/font"
+        android:textSize="28dp"
+        android:id="@+id/library"
+        />
+    </LinearLayout>

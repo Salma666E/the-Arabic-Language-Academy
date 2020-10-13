@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:fillViewport="true"
+    tools:context=".Fragments.AboutFragment"
+    >
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="من نحن :"
+        android:layout_marginTop="6dp"
+        android:fontFamily="@font/font"
+        android:textColor="@color/colorWord"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="مؤسسة حكومية أكاديمية، تُعنى بقضايا اللغة العربية ودعم المجامع اللغوية والعلمية في العالَمَينِ العربي والإسلامي، وهي همزة وصل للحوار الثقافي والبحث اللغوي والمعجمي بين الباحثين في شتى دول العالم."
+        android:textColor="#043779"
+        android:textSize="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:fontFamily="@font/font"
+        android:text="رؤيتنا :"
+        android:textColor="@color/colorWord"
+        android:textSize="20dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:text="منارة أكاديميّة لغويّة تهدفُ للتّمكين للغة العربيّة، وتوثيق أواصر التّعاون العلمي والمعرفي بين المجامع اللغويّة والعلميّة في العالمين العربي والإسلامي."
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/font"
+        android:layout_marginTop="9dp"
+        android:text="اهدافنا :"
+        android:textColor="@color/colorWord"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="1- عمل المعاجم اللغوية "
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="2- بحث قضايا اللغة  "
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="3- وضع المصطلحات العلمية واللغوية  "
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="4- تحقيق التراث العربي "
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:text="5- النشاط الثقافي  "
+        android:textColor="#043779"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="9dp"
+        android:text="رسالتنا :"
+        android:fontFamily="@font/font"
+        android:textColor="@color/colorWord"
+        android:textSize="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="20dp"
+        android:text="يصلُ مجمع اللغة العربيّة إلى تحقيق رؤيته وأهدافه من خلال:"
+        android:textColor="#043779"
+        android:textSize="18dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="# رعاية الأعمال البحثيّة والمشاريع العلميّة المتعلّقة باللّغة العربيّة."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="# رعاية برامج تسهيل تعلّم اللغة العربية، وتحفيز النّشء على التعامل بها، والإبداع في فنونها وأجناسها الأدبية."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="25dp"
+        android:text="# الإشراف والتخطيط والرّعاية المادّيّة لإنجاز المعجم التاريخي للغة العربيّة."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:text="# النّهضة بالجانب المصطلحي وتهذيبه، والإشراف على إصدار قواميس ومعاجم لغوية عصريّة تلبّي حاجيات المتحدّث باللّغة الفصيحة والكاتب بها في العصر الحديث."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginBottom="5dp"
+        android:layout_marginRight="25dp"
+        android:text="# مدّ جسور التّعاون، وتنسيق الجهود مع المجامع اللّغوية والعلميّة في عالمينا العربي والإسلامي للوصول إلى مخرجات معرفيّة هادفة وواعدة."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:text="# التّواصل مع رجالات الفكر واللغة والثّقافة والآداب والعلوم الإنسانيّة في شتّى دول العالم."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="# المشاركة الفاعلة في إعداد وإنشاء برامج إدماج اللغة العربية في البحث التكنولوجي المعاصر، والإفادة من مفرزات الانفجار المعلوماتي لخدمة اللغة العربية، وتعميم التخاطب بها مشافهة وكتابة."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:text="# رعاية الدراسات العلميّة التي تتناول تاريخ الأمة العربية وحضارتها وصلتها بالحضارات الأخرى."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="5dp"
+        android:text="# رعاية المشاريع العلمية المتعلقة بتحقيق المخطوطات اللغوية والتراثيّة ."
+        android:textColor="#000"
+        android:textSize="16dp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginBottom="50dp"
+        android:text="# رعاية جوائز دوليّة في خدمة اللغة العربية."
+        android:textColor="#000"
+        android:textSize="16dp" />
+</LinearLayout>
+</ScrollView>

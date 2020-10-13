@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layoutDirection="rtl"
+    android:orientation="vertical"
+    tools:context=".pages.ForAnyOne.AnyOneArActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        >
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:queryHint="محرك البحث"
+            android:iconifiedByDefault="false"
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:text="اختر اللجنة"
+            android:id="@+id/text"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWord"
+            />
+        <Spinner
+            android:layout_width="33dp"
+            android:layout_height="70dp"
+            android:id="@+id/select_commusion"
+            />
+    </LinearLayout>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="16dp"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/ar_word"
+            android:layout_marginTop="50dp"
+            android:hint="معني الكلمة"
+            android:textColor="#0921A2"
+            android:textSize="20dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/descr_word"
+            android:textSize="20dp"
+            android:hint="الوصف الخاص بها"
+            android:textColor="@color/colorWord"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="70dp"
+            />
+    </LinearLayout>
+    </ScrollView>
+</LinearLayout>

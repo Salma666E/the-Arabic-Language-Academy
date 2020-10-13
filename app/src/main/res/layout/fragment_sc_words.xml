@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layoutDirection="rtl"
+    tools:context=".Fragments.ScWordsFragment">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:orientation="horizontal"
+        >
+        <SearchView
+            android:id="@+id/search"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_weight="1"
+            android:queryHint="محرك البحث"
+            android:iconifiedByDefault="false"
+            />
+        <TextView
+            android:layout_width="110dp"
+            android:layout_height="70dp"
+            android:text="اختر اللجنة"
+            android:id="@+id/text"
+            android:gravity="center_vertical"
+            android:textColor="@color/colorWord"
+            />
+        <Spinner
+            android:layout_width="33dp"
+            android:layout_height="70dp"
+            android:id="@+id/select_commusion"
+            />
+    </LinearLayout>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btnSpeak"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/speaker" />
+        </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true"
+        >
+        <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:id="@+id/arb_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:hint="الكلمه العربي"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textColor="@color/colorWord"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/def_word"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:hint="التعريف الخاص بها"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="19dp"
+            android:layout_marginBottom="40dp"
+            android:textColor="@color/colorWord"
+            android:textSize="20dp" />
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:fontFamily="@font/my_font"
+                    android:textSize="16dp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:layout_alignParentTop="true"
+                    android:textColor="@color/colorWord"
+                    android:background="@drawable/et_shape"
+                    android:layout_margin="16dp"
+                    android:text="عرض جميع التعليقات الخاصه بهذا المصطلح"
+                    android:id="@+id/com_word"/>
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginTop="66dp"
+                        android:layout_marginRight="16dp">
+
+                        <ListView
+                            android:id="@+id/listCom"
+                            android:layout_width="match_parent"
+                            android:layout_height="250dp"
+                            android:layout_marginBottom="16dp"
+                            android:cacheColorHint="@color/colorItem" />
+
+                    </LinearLayout>
+                </ScrollView>
+            </RelativeLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:text="لكتابة تعليق ..."
+                android:fontFamily="@font/my_font"
+                android:textSize="28dp"
+                android:layout_alignParentBottom="true"
+                android:textColor="@color/colorWord"
+                android:layout_marginBottom="16dp"
+                android:id="@+id/submit"
+                android:gravity="center"/>
+    </LinearLayout>
+    </ScrollView>
+    </LinearLayout>

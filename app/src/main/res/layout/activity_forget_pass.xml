@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layoutDirection="rtl"
+    android:padding="16dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:text="@string/forgitpass"
+            android:textColor="@color/colorWord"
+            android:textSize="28dp"
+            android:fontFamily="@font/font"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="32dp"
+            android:lineSpacingExtra="5dp"
+            android:text="@string/sendforyou"
+            android:textColor="@color/colorWord"
+            android:fontFamily="@font/font"
+            android:textSize="18dp"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:id="@+id/email"
+            android:background="@drawable/et_shape"
+            android:hint="@string/email"
+            android:inputType="textEmailAddress"
+            android:paddingLeft="16dp"
+            android:fontFamily="@font/font"
+            android:textColorHint="#383A3D"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        >
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_margin="40dp"
+            android:background="@drawable/btn_shape_solid"
+            android:text="@string/send"
+            android:fontFamily="@font/font"
+            android:textColor="@color/colorWord"
+            android:id="@+id/sent"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Comment.AllCommentActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="#2695"
+        >
+        <TextView
+            android:id="@+id/page_title"
+            android:gravity="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/font"
+            android:text="لإرسال تعليقك الشخصى"
+            android:textColor="@color/colorWord"
+            android:textSize="28dp" />
+    </androidx.appcompat.widget.Toolbar>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="350dp"
+        android:layout_height="300dp"
+        android:elevation="30dp"
+        app:cardElevation="20dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="10dp"
+        app:cardMaxElevation="@dimen/cardview_compat_inset_shadow"
+        android:layout_marginBottom="90dp"
+        android:layout_marginTop="50dp"
+        >
+        <EditText
+            android:id="@+id/comment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/btn_shape_solid"
+            android:fontFamily="@font/my_font"
+            android:gravity="center"
+            android:hint="@string/comment"
+            android:lines="20"
+            android:padding="5dp" />
+    </com.google.android.material.card.MaterialCardView>
+    <Button
+        android:id="@+id/submit"
+        android:layout_width="160dp"
+        android:layout_height="60dp"
+        android:layout_gravity="center"
+        android:text="@string/send"
+        android:background="@drawable/et_shape"
+        android:fontFamily="@font/my_font"
+        android:textSize="18sp" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="هل تريد عرض كل التعليقات الخاصه بك..."
+            android:fontFamily="@font/my_font"
+            android:textSize="28dp"
+            android:layout_alignParentBottom="true"
+            android:textColor="@color/colorWord"
+            android:layout_marginBottom="18dp"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:id="@+id/all_comments"
+            android:gravity="center"/>
+    </RelativeLayout>
+</LinearLayout>
